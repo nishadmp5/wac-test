@@ -1,23 +1,27 @@
-import sectionOneBg from './SectionOne/Sec-1-bg.png'
-import logo from './SectionOne/logo.png'
-import riceSack from './SectionOne/rice-sack.png'
-import truck from './SectionOne/truck.png'
-import slideImage1 from './SectionTwo/slide-1.png'
-import slideImage2 from './SectionTwo/slide-2.png'
-import slideImage3 from './SectionTwo/slide-3.png'
-import slideImage4 from './SectionTwo/slide-4.png'
-import vessel1 from './SectionTwo/vessel-1.png'
-import vessel2 from './SectionTwo/vessel-2.png'
-import vessel3 from './SectionTwo/vessel-3.png'
-import steam1 from './SectionTwo/steam-1.png'
-import steam2 from './SectionTwo/steam-2.png'
-import steam3 from './SectionTwo/steam-3.png'
+import sectionOneBg from './SectionOne/Sec-1-bg.webp'
+import logo from './SectionOne/logo.webp'
+import riceSack from './SectionOne/rice-sack.webp'
+import truck from './SectionOne/truck.webp'
+import slideImage1 from './SectionTwo/slide-1.webp'
+import slideImage2 from './SectionTwo/slide-2.webp'
+import slideImage3 from './SectionTwo/slide-3.webp'
+import slideImage4 from './SectionTwo/slide-4.webp'
+import vessel1 from './SectionTwo/vessel-1.webp'
+import vessel2 from './SectionTwo/vessel-2.webp'
+import vessel3 from './SectionTwo/vessel-3.webp'
+import steam1 from './SectionTwo/steam-1.webp'
+import steam2 from './SectionTwo/steam-2.webp'
+import steam3 from './SectionTwo/steam-3.webp'
+import cookingSecBg from "./SectionTwo/cooking-bg.webp";
+import bgRing from "./SectionTwo/ring.webp";
 
 export const assets = {
     sectionOneBg,
     logo,
     riceSack,
-    truck
+    truck,
+    cookingSecBg,
+    bgRing
 }
 
 
@@ -50,7 +54,7 @@ export const cookingData = [
         heading: "Pressure Cooker",
         procedure: "We take time and effort to accurately review everything about your business and your industry.",
         vesselImage: vessel1,
-        steamImage:steam2,
+        steamImage:steam1,
         bgColor:"#891F1B"
     },
     {
