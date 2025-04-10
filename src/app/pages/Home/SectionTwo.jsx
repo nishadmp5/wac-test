@@ -1,10 +1,12 @@
 "use client";
-import { assets, cookingData, slidesData } from "@/app/assets/assets";
+import { cookingData, slidesData } from "@/app/assets/constants";
 import { useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-
+import cookingSecBg from "../../assets/SectionTwo/cooking-bg.webp";
+import bgRing from "../../assets/SectionTwo/ring.webp";
+import riceSack from '../../assets/SectionOne/rice-sack.webp'
 import CookingCard from "@/app/components/CookingCard";
 
 const SectionTwo = () => {
@@ -34,7 +36,7 @@ const SectionTwo = () => {
                 }}
                 className="w-full h-full flex justify-center items-center relative"
               >
-                <Image src={assets.bgRing} className="w-[70%] h-[70%]" />
+                <Image src={bgRing} className="w-[70%] h-[70%]" />
               </motion.div>
             </div>
 
@@ -62,7 +64,7 @@ const SectionTwo = () => {
                 <Image
                   className="object-cover w-full"
                   alt="rice sack"
-                  src={assets.riceSack}
+                  src={riceSack}
                 />
               </motion.div>
             </div>
@@ -197,7 +199,7 @@ const SectionTwo = () => {
           <div className="w-full h-full relative">
             <div className="z-0 absolute w-full h-full">
               <Image
-                src={assets.cookingSecBg}
+                src={cookingSecBg}
                 alt="Background Image"
                 className="w-full h-full"
               />

@@ -1,7 +1,4 @@
-import sectionOneBg from './SectionOne/Sec-1-bg.webp'
-import logo from './SectionOne/logo.webp'
-import riceSack from './SectionOne/rice-sack.webp'
-import truck from './SectionOne/truck.webp'
+
 import slideImage1 from './SectionTwo/slide-1.webp'
 import slideImage2 from './SectionTwo/slide-2.webp'
 import slideImage3 from './SectionTwo/slide-3.webp'
@@ -12,17 +9,6 @@ import vessel3 from './SectionTwo/vessel-3.webp'
 import steam1 from './SectionTwo/steam-1.webp'
 import steam2 from './SectionTwo/steam-2.webp'
 import steam3 from './SectionTwo/steam-3.webp'
-import cookingSecBg from "./SectionTwo/cooking-bg.webp";
-import bgRing from "./SectionTwo/ring.webp";
-
-export const assets = {
-    sectionOneBg,
-    logo,
-    riceSack,
-    truck,
-    cookingSecBg,
-    bgRing
-}
 
 
 export const slidesData = [

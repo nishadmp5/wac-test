@@ -2,7 +2,6 @@
 import { useGLTF } from '@react-three/drei';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import React, { useEffect, useRef, useState } from 'react'
-import { useMeasure } from 'react-use';
 
 
 // ---3D MODEL--

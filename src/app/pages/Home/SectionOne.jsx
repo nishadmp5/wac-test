@@ -1,8 +1,11 @@
 "use client";
-import { assets } from "@/app/assets/assets";
 import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import sectionOneBg from '../../assets/SectionOne/Sec-1-bg.webp'
+import logo from '../../assets/SectionOne/logo.webp'
+import riceSack from '../../assets/SectionOne/rice-sack.webp'
+import truck from '../../assets/SectionOne/truck.webp'
 
 const SectionOne = () => {
   //   ---VALUE FOR TRUCK MOVEMENT---
@@ -110,7 +113,7 @@ const SectionOne = () => {
               {/* --MAIN BG IMAGE--- */}
               <Image
                 className="w-full absolute top-0 object-cover"
-                src={assets.sectionOneBg}
+                src={sectionOneBg}
               />
 
               {/* ---TRUCK IMAGE---- */}
@@ -123,7 +126,7 @@ const SectionOne = () => {
                 <Image
                   className="w-full object-cover"
                   alt="truck"
-                  src={assets.truck}
+                  src={truck}
                 />
               </motion.div>
             </div>
@@ -134,7 +137,7 @@ const SectionOne = () => {
             <Image
               className="object-cover w-full"
               alt="logo"
-              src={assets.logo}
+              src={logo}
             />
           </div>
 
@@ -155,7 +158,7 @@ const SectionOne = () => {
                 }}
                 className="w-[17vw]"
               >
-                <Image className="w-full object-cover" src={assets.riceSack} />
+                <Image className="w-full object-cover" src={riceSack} />
               </motion.div>
               <motion.div
                 style={{
@@ -182,7 +185,7 @@ const SectionOne = () => {
                 }}
                 className="w-[9vw]"
               >
-                <Image className="w-full object-cover" src={assets.riceSack} />
+                <Image className="w-full object-cover" src={riceSack} />
               </motion.div>
               <motion.div
                 style={{
@@ -209,7 +212,7 @@ const SectionOne = () => {
                 }}
                 className="w-[16vw]"
               >
-                <Image className="w-full object-cover" src={assets.riceSack} />
+                <Image className="w-full object-cover" src={riceSack} />
               </motion.div>{" "}
               <motion.div
                 style={{
